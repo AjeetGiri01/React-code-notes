@@ -1,15 +1,16 @@
 import "./App.css";
-import Title from "./Title.jsx";
 import ProductTab from "./ProductTab.jsx";
 
-
-function Description() {
-  return <h3>I am the Description!</h3>;
-}
-
 function App() {
+  let styles = {
+    display: "flex",
+    justifyContent: "center",
+  }
   return (
-    <ProductTab/>
+    <>
+      <h2 style={styles} >Blockbuster Deals | Shop Now</h2>
+      <ProductTab/>
+    </>
   );
 }
 
