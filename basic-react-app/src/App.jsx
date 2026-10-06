@@ -1,4 +1,6 @@
 import "./App.css";
+import Button from "./Button.jsx";
+import Form from "./Form.jsx";
 import ProductTab from "./ProductTab.jsx";
 
 function App() {
@@ -8,8 +10,7 @@ function App() {
   }
   return (
     <>
-      <h2 style={styles} >Blockbuster Deals | Shop Now</h2>
-      <ProductTab/>
+      <Form/>
     </>
   );
 }
