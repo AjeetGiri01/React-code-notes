@@ -4,6 +4,8 @@ import LudoBoard from './LudoBoard';
 import TodoList from './TodoList';
 import { sum } from './helper';
 
+import Form from './Form';
+
 
 function App() {
 
@@ -13,7 +15,8 @@ function App() {
 
   return (
     <>
-      <Lottery n={3} winCondition={winCondition} />
+      {/* <Lottery n={3} winCondition={winCondition} /> */}
+      <Form/>
     </>
   );
 }
