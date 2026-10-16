@@ -5,6 +5,8 @@ import TodoList from './TodoList';
 import { sum } from './helper';
 import CommentsForm from './CommentsForm';
 import Comment from './Comment';
+import Counter from './Counter';
+import Joker from './Joker';
 
 import Form from './Form';
 
@@ -18,9 +20,11 @@ function App() {
   return (
     <>
       {/* <Lottery n={3} winCondition={winCondition} /> */}
-      {/* <Form/> */}
+      {/* <Form/>
       <Comment/>
-      <CommentsForm/>
+      <CommentsForm/> */}
+      {/* <Counter/> */}
+      <Joker/>
     </>
   );
 }
